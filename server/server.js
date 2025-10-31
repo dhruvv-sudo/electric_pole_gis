@@ -4,7 +4,7 @@ const cors = require('cors');
 const path = require('path');
 require('dotenv').config();
 
-const poleController = require('./server/controllers/poleController');
+const poleController = require('./controllers/poleController');
 const app = express();
 
 app.use(cors({ origin: process.env.CORS_ORIGIN || '*' }));
