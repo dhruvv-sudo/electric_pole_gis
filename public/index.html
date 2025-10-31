@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Electric Pole GIS - MVP</title>
+  <link href="https://cesium.com/downloads/cesiumjs/releases/1.96/Build/Cesium/Widgets/widgets.css" rel="stylesheet" />
+  <style> html,body,#cesiumContainer{width:100%;height:100%;margin:0;padding:0;} #sidebar{position:absolute;left:10px;top:10px;width:260px;background:#fff;padding:10px;border-radius:6px;z-index:99;} </style>
+</head>
+<body>
+  <div id="sidebar">
+    <h3>Electric Pole GIS (MVP)</h3>
+    <button id="refresh-btn">Refresh</button>
+    <button id="add-pole-btn">Add Pole (click globe)</button>
+    <div id="info"></div>
+  </div>
+  <div id="cesiumContainer"></div>
+  <script src="https://cesium.com/downloads/cesiumjs/releases/1.96/Build/Cesium/Cesium.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

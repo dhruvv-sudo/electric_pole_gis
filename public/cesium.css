@@ -1,0 +1,42 @@
+/* ---------- cesium.css ---------- */
+/* Optional styling overrides for Cesium viewer */
+
+#cesiumContainer {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#sidebar {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 260px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  z-index: 999;
+}
+
+#sidebar h3 {
+  margin: 0;
+  font-family: sans-serif;
+  color: #333;
+}
+
+button {
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005bd1;
+}
